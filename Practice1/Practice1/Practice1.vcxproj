@@ -120,14 +120,13 @@ glut.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Dev\GLUT\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Dev\GLUT\include;C:\Dev\glew\include\GL;C:\Dev\freeglut-3.6.0\freeglut-3.6.0\include\GL;C:\Dev\glm-master\glm-master\glm;C:\Dev\assimp-master\assimp-master\include\assimp;E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master;E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Dev\GLUT\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>opengl32.lib;glut32.lib;
-glut.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Dev\GLUT\lib;C:\Dev\glew\lib\Release\x64;C:\Dev\freeglut-3.6.0\freeglut-3.6.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glut32.lib;glew32.lib;glut.lib;glew32s.lib;freeglutd.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -147,9 +146,44 @@ glut.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="math_3d.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Source1.cpp" />
+    <ClCompile Include="Source10.cpp" />
+    <ClCompile Include="Source11.cpp" />
+    <ClCompile Include="Source12.cpp" />
+    <ClCompile Include="Source13.cpp" />
+    <ClCompile Include="Source14.cpp" />
+    <ClCompile Include="Source15.cpp" />
+    <ClCompile Include="Source16.cpp" />
+    <ClCompile Include="Source17.cpp" />
+    <ClCompile Include="Source18.cpp" />
+    <ClCompile Include="Source19.cpp" />
     <ClCompile Include="Source2.cpp" />
+    <ClCompile Include="Source20.cpp" />
+    <ClCompile Include="Source21.cpp" />
+    <ClCompile Include="Source22.cpp" />
+    <ClCompile Include="Source23.cpp" />
+    <ClCompile Include="Source24.cpp" />
+    <ClCompile Include="Source25.cpp" />
+    <ClCompile Include="Source26.cpp" />
+    <ClCompile Include="Source27.cpp" />
+    <ClCompile Include="Source28.cpp" />
+    <ClCompile Include="Source29.cpp" />
+    <ClCompile Include="Source3.cpp" />
+    <ClCompile Include="Source30.cpp" />
+    <ClCompile Include="Source31.cpp" />
+    <ClCompile Include="Source32.cpp" />
+    <ClCompile Include="Source4.cpp" />
+    <ClCompile Include="Source5.cpp" />
+    <ClCompile Include="Source6.cpp" />
+    <ClCompile Include="Source7.cpp" />
+    <ClCompile Include="Source8.cpp" />
+    <ClCompile Include="Source9.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="math_3d.h" />
+    <ClInclude Include="util.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

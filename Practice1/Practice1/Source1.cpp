@@ -1,4 +1,6 @@
-﻿#include <glut.h>// 引入 GLUT 库
+﻿/*
+
+#include <glut.h>// 引入 GLUT 库
 
 // 渲染回调函数
 void RenderSceneCB() {
@@ -6,7 +8,7 @@ void RenderSceneCB() {
     glutSwapBuffers(); // 交换前后缓冲
 }
 
-int mmain(int argc, char** argv) {
+int main(int argc, char** argv) {
     glutInit(&argc, argv); // 初始化 GLUT
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA | GLUT_DEPTH); // 设置双缓冲、RGBA 颜色模式、深度缓冲
     glutInitWindowSize(1024, 768); // 设置窗口大小
@@ -19,3 +21,4 @@ int mmain(int argc, char** argv) {
     glutMainLoop(); // 进入 GLUT 主循环
     return 0;
 }
+*/

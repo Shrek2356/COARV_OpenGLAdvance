@@ -1,11 +1,329 @@
-﻿Source1.obj : error LNK2019: symbole externe non résolu glutInit référencé dans la fonction main
-Source1.obj : error LNK2019: symbole externe non résolu glutInitDisplayMode référencé dans la fonction main
-Source1.obj : error LNK2019: symbole externe non résolu glutInitWindowPosition référencé dans la fonction main
-Source1.obj : error LNK2019: symbole externe non résolu glutInitWindowSize référencé dans la fonction main
-Source1.obj : error LNK2019: symbole externe non résolu glutMainLoop référencé dans la fonction main
-Source1.obj : error LNK2019: symbole externe non résolu glutCreateWindow référencé dans la fonction main
-Source1.obj : error LNK2019: symbole externe non résolu glutSwapBuffers référencé dans la fonction "void __cdecl RenderSceneCB(void)" (?RenderSceneCB@@YAXXZ)
-Source1.obj : error LNK2019: symbole externe non résolu glutDisplayFunc référencé dans la fonction main
-C:\Dev\GLUT\lib\glut32.lib : warning LNK4272: type d'ordinateur bibliothèque 'x86' en conflit avec le type d'ordinateur cible 'x64'
-C:\Dev\GLUT\lib\glut.lib : warning LNK4272: type d'ordinateur bibliothèque 'x86' en conflit avec le type d'ordinateur cible 'x64'
-E:\Documents\COARV_OpenGLAdvance\Practice1\x64\Debug\Practice1.exe : fatal error LNK1120: 8 externes non résolus
+﻿  math_3d.cpp
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\qualifier.hpp(9,2): error C2011: 'glm::qualifier' : redéfinition du type 'enum'
+C:\Dev\glm-master\glm-master\glm\detail\qualifier.hpp(8): message : voir la déclaration de 'glm::qualifier'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\qualifier.hpp(35,2): error C2572: 'glm::vec' : redéfinition de l'argument par défaut : paramètre 3
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\qualifier.hpp(35): message : voir la déclaration de 'glm::vec'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\qualifier.hpp(36,2): error C2572: 'glm::mat' : redéfinition de l'argument par défaut : paramètre 4
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\qualifier.hpp(36): message : voir la déclaration de 'glm::mat'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\qualifier.hpp(37,2): error C2572: 'glm::qua' : redéfinition de l'argument par défaut : paramètre 2
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\qualifier.hpp(37): message : voir la déclaration de 'glm::qua'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\qualifier.hpp(62,3): error C2953: 'glm::detail::is_aligned' : modèle de classe déjà défini
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\qualifier.hpp(59): message : voir la déclaration de 'glm::detail::is_aligned'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\qualifier.hpp(90,3): error C2953: 'glm::detail::storage' : modèle de classe déjà défini
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\qualifier.hpp(85): message : voir la déclaration de 'glm::detail::storage'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\qualifier.hpp(99,4): error C2976: 'glm::detail::storage' : nombre d'arguments modèle insuffisant
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\qualifier.hpp(94): message : voir la déclaration de 'glm::detail::storage'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\qualifier.hpp(107,4): error C3855: 'glm::detail::storage' : le paramètre modèle 'L' est incompatible avec la déclaration
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\qualifier.hpp(107,4): error C2976: 'glm::detail::storage' : nombre d'arguments modèle insuffisant
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\qualifier.hpp(102): message : voir la déclaration de 'glm::detail::storage'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\qualifier.hpp(190,2): error C2011: 'glm::detail::genTypeEnum' : redéfinition du type 'enum'
+C:\Dev\glm-master\glm-master\glm\detail\qualifier.hpp(255): message : voir la déclaration de 'glm::detail::genTypeEnum'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\qualifier.hpp(198,4): error C2953: 'glm::detail::genTypeTrait' : modèle de classe déjà défini
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\qualifier.hpp(197): message : voir la déclaration de 'glm::detail::genTypeTrait'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\qualifier.hpp(204,3): error C3855: 'glm::detail::genTypeTrait' : le paramètre modèle 'genType' est incompatible avec la déclaration
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\qualifier.hpp(204,3): error C2977: 'glm::detail::genTypeTrait' : nombre d'arguments modèle trop élevé
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\qualifier.hpp(201): message : voir la déclaration de 'glm::detail::genTypeTrait'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\qualifier.hpp(209,3): error C2953: 'glm::detail::init_gentype' : modèle de classe déjà défini
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\qualifier.hpp(207): message : voir la déclaration de 'glm::detail::init_gentype'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\qualifier.hpp(218,3): error C2976: 'glm::detail::init_gentype' : nombre d'arguments modèle insuffisant
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\qualifier.hpp(212): message : voir la déclaration de 'glm::detail::init_gentype'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\qualifier.hpp(227,3): error C2976: 'glm::detail::init_gentype' : nombre d'arguments modèle insuffisant
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\qualifier.hpp(221): message : voir la déclaration de 'glm::detail::init_gentype'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.hpp(220,3): error C2953: 'glm::vec<2,T,Q>' : modèle de classe déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(17): message : voir la déclaration de 'glm::vec<2,T,Q>'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\compute_vector_relational.hpp(17,3): error C2953: 'glm::detail::compute_equal' : modèle de classe déjà défini
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\compute_vector_relational.hpp(11): message : voir la déclaration de 'glm::detail::compute_equal'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(27,49): error C2995: 'glm::vec<2,T,Q>::vec(const glm::vec<2,T,P> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(104): message : voir la déclaration de 'glm::vec<2,T,Q>::vec'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(34,49): error C2995: 'glm::vec<2,T,Q>::vec(T)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(108): message : voir la déclaration de 'glm::vec<2,T,Q>::vec'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(39,49): error C2995: 'glm::vec<2,T,Q>::vec(T,T)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(109): message : voir la déclaration de 'glm::vec<2,T,Q>::vec'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(47,49): error C2995: 'glm::vec<2,T,Q>::vec(const glm::vec<1,U,P> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(114): message : voir la déclaration de 'glm::vec<2,T,Q>::vec'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(54,49): error C2995: 'glm::vec<2,T,Q>::vec(A,B)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(118): message : voir la déclaration de 'glm::vec<2,T,Q>::vec'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(61,49): error C2995: 'glm::vec<2,T,Q>::vec(const glm::vec<1,A,Q> &,B)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(120): message : voir la déclaration de 'glm::vec<2,T,Q>::vec'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(68,49): error C2995: 'glm::vec<2,T,Q>::vec(A,const glm::vec<1,B,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(122): message : voir la déclaration de 'glm::vec<2,T,Q>::vec'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(75,49): error C2995: 'glm::vec<2,T,Q>::vec(const glm::vec<1,A,Q> &,const glm::vec<1,B,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(124): message : voir la déclaration de 'glm::vec<2,T,Q>::vec'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(84,49): error C2995: 'glm::vec<2,T,Q>::vec(const glm::vec<2,U,P> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(137): message : voir la déclaration de 'glm::vec<2,T,Q>::vec'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(91,49): error C2995: 'glm::vec<2,T,Q>::vec(const glm::vec<3,U,P> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(130): message : voir la déclaration de 'glm::vec<2,T,Q>::vec'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(98,49): error C2995: 'glm::vec<2,T,Q>::vec(const glm::vec<4,U,P> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(133): message : voir la déclaration de 'glm::vec<2,T,Q>::vec'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(106,53): error C2995: 'T &glm::vec<2,T,Q>::operator [](glm::vec<2,T,Q>::length_type)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(96): message : voir la déclaration de 'glm::vec<2,T,Q>::operator []'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(120,58): error C2995: 'const T &glm::vec<2,T,Q>::operator [](glm::vec<2,T,Q>::length_type) const' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(97): message : voir la déclaration de 'glm::vec<2,T,Q>::operator []'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(147,64): error C2995: 'glm::vec<2,T,Q> &glm::vec<2,T,Q>::operator =(const glm::vec<2,U,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(153): message : voir la déclaration de 'glm::vec<2,T,Q>::operator ='
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(156,64): error C2995: 'glm::vec<2,T,Q> &glm::vec<2,T,Q>::operator +=(U)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(155): message : voir la déclaration de 'glm::vec<2,T,Q>::operator +='
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(165,64): error C2995: 'glm::vec<2,T,Q> &glm::vec<2,T,Q>::operator +=(const glm::vec<1,A,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(157): message : voir la déclaration de 'glm::vec<2,T,Q>::operator +='
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(174,64): error C2995: 'glm::vec<2,T,Q> &glm::vec<2,T,Q>::operator +=(const glm::vec<2,U,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(159): message : voir la déclaration de 'glm::vec<2,T,Q>::operator +='
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(183,64): error C2995: 'glm::vec<2,T,Q> &glm::vec<2,T,Q>::operator -=(U)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(161): message : voir la déclaration de 'glm::vec<2,T,Q>::operator -='
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(192,64): error C2995: 'glm::vec<2,T,Q> &glm::vec<2,T,Q>::operator -=(const glm::vec<1,A,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(163): message : voir la déclaration de 'glm::vec<2,T,Q>::operator -='
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(201,64): error C2995: 'glm::vec<2,T,Q> &glm::vec<2,T,Q>::operator -=(const glm::vec<2,U,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(165): message : voir la déclaration de 'glm::vec<2,T,Q>::operator -='
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(210,64): error C2995: 'glm::vec<2,T,Q> &glm::vec<2,T,Q>::operator *=(U)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(167): message : voir la déclaration de 'glm::vec<2,T,Q>::operator *='
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(219,64): error C2995: 'glm::vec<2,T,Q> &glm::vec<2,T,Q>::operator *=(const glm::vec<1,A,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(169): message : voir la déclaration de 'glm::vec<2,T,Q>::operator *='
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(228,64): error C2995: 'glm::vec<2,T,Q> &glm::vec<2,T,Q>::operator *=(const glm::vec<2,U,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(171): message : voir la déclaration de 'glm::vec<2,T,Q>::operator *='
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(237,64): error C2995: 'glm::vec<2,T,Q> &glm::vec<2,T,Q>::operator /=(U)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(173): message : voir la déclaration de 'glm::vec<2,T,Q>::operator /='
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(246,64): error C2995: 'glm::vec<2,T,Q> &glm::vec<2,T,Q>::operator /=(const glm::vec<1,A,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(175): message : voir la déclaration de 'glm::vec<2,T,Q>::operator /='
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(255,64): error C2995: 'glm::vec<2,T,Q> &glm::vec<2,T,Q>::operator /=(const glm::vec<2,U,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(177): message : voir la déclaration de 'glm::vec<2,T,Q>::operator /='
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(265,64): error C2995: 'glm::vec<2,T,Q> &glm::vec<2,T,Q>::operator ++(void)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(181): message : voir la déclaration de 'glm::vec<2,T,Q>::operator ++'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(273,64): error C2995: 'glm::vec<2,T,Q> &glm::vec<2,T,Q>::operator --(void)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(182): message : voir la déclaration de 'glm::vec<2,T,Q>::operator --'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(281,62): error C2995: 'glm::vec<2,T,Q> glm::vec<2,T,Q>::operator ++(int)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(183): message : voir la déclaration de 'glm::vec<2,T,Q>::operator ++'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(289,62): error C2995: 'glm::vec<2,T,Q> glm::vec<2,T,Q>::operator --(int)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(184): message : voir la déclaration de 'glm::vec<2,T,Q>::operator --'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(300,64): error C2995: 'glm::vec<2,T,Q> &glm::vec<2,T,Q>::operator %=(U)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(189): message : voir la déclaration de 'glm::vec<2,T,Q>::operator %='
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(309,64): error C2995: 'glm::vec<2,T,Q> &glm::vec<2,T,Q>::operator %=(const glm::vec<1,A,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(191): message : voir la déclaration de 'glm::vec<2,T,Q>::operator %='
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(318,64): error C2995: 'glm::vec<2,T,Q> &glm::vec<2,T,Q>::operator %=(const glm::vec<2,U,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(193): message : voir la déclaration de 'glm::vec<2,T,Q>::operator %='
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(327,64): error C2995: 'glm::vec<2,T,Q> &glm::vec<2,T,Q>::operator &=(U)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(195): message : voir la déclaration de 'glm::vec<2,T,Q>::operator &='
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(336,64): error C2995: 'glm::vec<2,T,Q> &glm::vec<2,T,Q>::operator &=(const glm::vec<1,A,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(197): message : voir la déclaration de 'glm::vec<2,T,Q>::operator &='
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(345,64): error C2995: 'glm::vec<2,T,Q> &glm::vec<2,T,Q>::operator &=(const glm::vec<2,U,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(199): message : voir la déclaration de 'glm::vec<2,T,Q>::operator &='
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(354,64): error C2995: 'glm::vec<2,T,Q> &glm::vec<2,T,Q>::operator |=(U)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(201): message : voir la déclaration de 'glm::vec<2,T,Q>::operator |='
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(363,64): error C2995: 'glm::vec<2,T,Q> &glm::vec<2,T,Q>::operator |=(const glm::vec<1,A,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(203): message : voir la déclaration de 'glm::vec<2,T,Q>::operator |='
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(372,64): error C2995: 'glm::vec<2,T,Q> &glm::vec<2,T,Q>::operator |=(const glm::vec<2,U,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(205): message : voir la déclaration de 'glm::vec<2,T,Q>::operator |='
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(381,64): error C2995: 'glm::vec<2,T,Q> &glm::vec<2,T,Q>::operator ^=(U)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(207): message : voir la déclaration de 'glm::vec<2,T,Q>::operator ^='
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(390,64): error C2995: 'glm::vec<2,T,Q> &glm::vec<2,T,Q>::operator ^=(const glm::vec<1,A,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(209): message : voir la déclaration de 'glm::vec<2,T,Q>::operator ^='
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(399,64): error C2995: 'glm::vec<2,T,Q> &glm::vec<2,T,Q>::operator ^=(const glm::vec<2,U,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(211): message : voir la déclaration de 'glm::vec<2,T,Q>::operator ^='
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(408,64): error C2995: 'glm::vec<2,T,Q> &glm::vec<2,T,Q>::operator <<=(U)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(213): message : voir la déclaration de 'glm::vec<2,T,Q>::operator <<='
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(417,64): error C2995: 'glm::vec<2,T,Q> &glm::vec<2,T,Q>::operator <<=(const glm::vec<1,A,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(215): message : voir la déclaration de 'glm::vec<2,T,Q>::operator <<='
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(426,64): error C2995: 'glm::vec<2,T,Q> &glm::vec<2,T,Q>::operator <<=(const glm::vec<2,U,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(217): message : voir la déclaration de 'glm::vec<2,T,Q>::operator <<='
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(435,64): error C2995: 'glm::vec<2,T,Q> &glm::vec<2,T,Q>::operator >>=(U)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(219): message : voir la déclaration de 'glm::vec<2,T,Q>::operator >>='
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(444,64): error C2995: 'glm::vec<2,T,Q> &glm::vec<2,T,Q>::operator >>=(const glm::vec<1,A,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(221): message : voir la déclaration de 'glm::vec<2,T,Q>::operator >>='
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(453,64): error C2995: 'glm::vec<2,T,Q> &glm::vec<2,T,Q>::operator >>=(const glm::vec<2,U,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(223): message : voir la déclaration de 'glm::vec<2,T,Q>::operator >>='
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(463,48): error C2995: 'glm::vec<2,T,Q> glm::operator +(const glm::vec<2,T,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(229): message : voir la déclaration de 'glm::operator +'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(469,48): error C2995: 'glm::vec<2,T,Q> glm::operator -(const glm::vec<2,T,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(232): message : voir la déclaration de 'glm::operator -'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(479,48): error C2995: 'glm::vec<2,T,Q> glm::operator +(const glm::vec<2,T,Q> &,T)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(237): message : voir la déclaration de 'glm::operator +'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(487,48): error C2995: 'glm::vec<2,T,Q> glm::operator +(const glm::vec<2,T,Q> &,const glm::vec<1,T,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(240): message : voir la déclaration de 'glm::operator +'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(495,48): error C2995: 'glm::vec<2,T,Q> glm::operator +(T,const glm::vec<2,T,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(243): message : voir la déclaration de 'glm::operator +'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(503,48): error C2995: 'glm::vec<2,T,Q> glm::operator +(const glm::vec<1,T,Q> &,const glm::vec<2,T,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(246): message : voir la déclaration de 'glm::operator +'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(511,48): error C2995: 'glm::vec<2,T,Q> glm::operator +(const glm::vec<2,T,Q> &,const glm::vec<2,T,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(249): message : voir la déclaration de 'glm::operator +'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(519,48): error C2995: 'glm::vec<2,T,Q> glm::operator -(const glm::vec<2,T,Q> &,T)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(252): message : voir la déclaration de 'glm::operator -'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(527,48): error C2995: 'glm::vec<2,T,Q> glm::operator -(const glm::vec<2,T,Q> &,const glm::vec<1,T,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(255): message : voir la déclaration de 'glm::operator -'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(535,48): error C2995: 'glm::vec<2,T,Q> glm::operator -(T,const glm::vec<2,T,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(258): message : voir la déclaration de 'glm::operator -'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(543,48): error C2995: 'glm::vec<2,T,Q> glm::operator -(const glm::vec<1,T,Q> &,const glm::vec<2,T,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(261): message : voir la déclaration de 'glm::operator -'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(551,48): error C2995: 'glm::vec<2,T,Q> glm::operator -(const glm::vec<2,T,Q> &,const glm::vec<2,T,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(264): message : voir la déclaration de 'glm::operator -'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(559,48): error C2995: 'glm::vec<2,T,Q> glm::operator *(const glm::vec<2,T,Q> &,T)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(267): message : voir la déclaration de 'glm::operator *'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(567,48): error C2995: 'glm::vec<2,T,Q> glm::operator *(const glm::vec<2,T,Q> &,const glm::vec<1,T,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(270): message : voir la déclaration de 'glm::operator *'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(575,48): error C2995: 'glm::vec<2,T,Q> glm::operator *(T,const glm::vec<2,T,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(273): message : voir la déclaration de 'glm::operator *'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(583,48): error C2995: 'glm::vec<2,T,Q> glm::operator *(const glm::vec<1,T,Q> &,const glm::vec<2,T,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(276): message : voir la déclaration de 'glm::operator *'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(591,48): error C2995: 'glm::vec<2,T,Q> glm::operator *(const glm::vec<2,T,Q> &,const glm::vec<2,T,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(279): message : voir la déclaration de 'glm::operator *'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(599,48): error C2995: 'glm::vec<2,T,Q> glm::operator /(const glm::vec<2,T,Q> &,T)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(282): message : voir la déclaration de 'glm::operator /'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(607,48): error C2995: 'glm::vec<2,T,Q> glm::operator /(const glm::vec<2,T,Q> &,const glm::vec<1,T,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(285): message : voir la déclaration de 'glm::operator /'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(615,48): error C2995: 'glm::vec<2,T,Q> glm::operator /(T,const glm::vec<2,T,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(288): message : voir la déclaration de 'glm::operator /'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(623,48): error C2995: 'glm::vec<2,T,Q> glm::operator /(const glm::vec<1,T,Q> &,const glm::vec<2,T,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(291): message : voir la déclaration de 'glm::operator /'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(631,48): error C2995: 'glm::vec<2,T,Q> glm::operator /(const glm::vec<2,T,Q> &,const glm::vec<2,T,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(294): message : voir la déclaration de 'glm::operator /'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(641,48): error C2995: 'glm::vec<2,T,Q> glm::operator %(const glm::vec<2,T,Q> &,T)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(297): message : voir la déclaration de 'glm::operator %'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(649,48): error C2995: 'glm::vec<2,T,Q> glm::operator %(const glm::vec<2,T,Q> &,const glm::vec<1,T,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(300): message : voir la déclaration de 'glm::operator %'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(657,48): error C2995: 'glm::vec<2,T,Q> glm::operator %(T,const glm::vec<2,T,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(303): message : voir la déclaration de 'glm::operator %'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(665,48): error C2995: 'glm::vec<2,T,Q> glm::operator %(const glm::vec<1,T,Q> &,const glm::vec<2,T,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(306): message : voir la déclaration de 'glm::operator %'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(673,48): error C2995: 'glm::vec<2,T,Q> glm::operator %(const glm::vec<2,T,Q> &,const glm::vec<2,T,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(309): message : voir la déclaration de 'glm::operator %'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(681,48): error C2995: 'glm::vec<2,T,Q> glm::operator &(const glm::vec<2,T,Q> &,T)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(312): message : voir la déclaration de 'glm::operator &'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(689,48): error C2995: 'glm::vec<2,T,Q> glm::operator &(const glm::vec<2,T,Q> &,const glm::vec<1,T,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(315): message : voir la déclaration de 'glm::operator &'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(697,48): error C2995: 'glm::vec<2,T,Q> glm::operator &(T,const glm::vec<2,T,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(318): message : voir la déclaration de 'glm::operator &'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(705,48): error C2995: 'glm::vec<2,T,Q> glm::operator &(const glm::vec<1,T,Q> &,const glm::vec<2,T,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(321): message : voir la déclaration de 'glm::operator &'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(713,48): error C2995: 'glm::vec<2,T,Q> glm::operator &(const glm::vec<2,T,Q> &,const glm::vec<2,T,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(324): message : voir la déclaration de 'glm::operator &'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(721,48): error C2995: 'glm::vec<2,T,Q> glm::operator |(const glm::vec<2,T,Q> &,T)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(327): message : voir la déclaration de 'glm::operator |'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(729,48): error C2995: 'glm::vec<2,T,Q> glm::operator |(const glm::vec<2,T,Q> &,const glm::vec<1,T,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(330): message : voir la déclaration de 'glm::operator |'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(737,48): error C2995: 'glm::vec<2,T,Q> glm::operator |(T,const glm::vec<2,T,Q> &)' : modèle de fonction déjà défini
+C:\Dev\glm-master\glm-master\glm\detail\type_vec2.hpp(333): message : voir la déclaration de 'glm::operator |'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\ogldev-master\Include\glm\detail\type_vec2.inl(742,2): fatal error C1003: le nombre d'erreurs est supérieur à 100 ; arrêt de la compilation
+  Source14.cpp
+  Source15.cpp
+  Source16.cpp
+  Source17.cpp
+  Source18.cpp
+  Source19.cpp
+  Source20.cpp
+  Source21.cpp
+  Source22.cpp
+  Source23.cpp
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(71,84): error C2059: erreur de syntaxe : ')'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(73,28): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(73,32): error C2061: erreur de syntaxe : identificateur 'ShadowMapTechnique'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(75,40): error C2143: erreur de syntaxe : absence de ';' avant '{'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(75,40): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(80,25): error C3927: '->' : l'utilisation d'un type de retour de fin n'est pas autorisée après un déclarateur qui n'est pas un déclarateur de fonction
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(80,27): error C3613: type de retour manquant après '->' ('int' pris par défaut)
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(80,33): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(80,9): error C2086: 'int m_pShadowMapTech' : redéfinition
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(73): message : voir la déclaration de 'm_pShadowMapTech'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(80,27): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'Enable'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(82,19): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(82,23): error C2061: erreur de syntaxe : identificateur 'Mesh'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(84,57): error C2143: erreur de syntaxe : absence de ';' avant '{'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(84,57): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(88,19): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(88,23): error C2061: erreur de syntaxe : identificateur 'Mesh'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(91,5): error C2059: erreur de syntaxe : '}'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(91,5): error C2143: erreur de syntaxe : absence de ';' avant '}'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(94,5): error C2143: erreur de syntaxe : absence de ';' avant '{'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(94,5): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(98,18): error C2575: 'RenderSceneCB' : seules les fonctions membres et les bases peuvent être virtuelles
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(100,9): error C2065: 'm_pGameCamera' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(101,9): error C2065: 'm_scale' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(103,9): error C3861: 'ShadowMapPass' : identificateur introuvable
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(104,9): error C3861: 'RenderPass' : identificateur introuvable
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(106,9): error C3861: 'glutSwapBuffers' : identificateur introuvable
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(109,18): error C2575: 'ShadowMapPass' : seules les fonctions membres et les bases peuvent être virtuelles
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(111,9): error C2065: 'm_shadowMapFBO' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(113,17): error C2065: 'GL_DEPTH_BUFFER_BIT' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(113,9): error C3861: 'glClear' : identificateur introuvable
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(115,9): error C2065: 'Pipeline' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(115,18): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'p'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(115,18): error C2065: 'p' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(116,9): error C2065: 'p' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(117,9): error C2065: 'p' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(117,24): error C2065: 'm_scale' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(118,9): error C2065: 'p' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(119,9): error C2065: 'p' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(119,21): error C2065: 'm_spotLight' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(119,43): error C2065: 'm_spotLight' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(119,66): error C3861: 'Vector3f' : identificateur introuvable
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(120,9): error C2065: 'p' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(120,30): error C2065: 'm_persProjInfo' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(121,34): error C2065: 'p' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(124,27): error C2065: 'GL_FRAMEBUFFER' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(124,9): error C3861: 'glBindFramebuffer' : identificateur introuvable
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(127,18): error C2575: 'RenderPass' : seules les fonctions membres et les bases peuvent être virtuelles
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(129,17): error C2065: 'GL_COLOR_BUFFER_BIT' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(129,39): error C2065: 'GL_DEPTH_BUFFER_BIT' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(129,9): error C3861: 'glClear' : identificateur introuvable
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(132,9): error C2065: 'm_shadowMapFBO' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(132,39): error C2065: 'GL_TEXTURE0' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(134,9): error C2065: 'Pipeline' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(134,18): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'p'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(134,18): error C2065: 'p' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(135,9): error C2065: 'p' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(136,9): error C2065: 'p' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(137,9): error C2065: 'p' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(138,9): error C2065: 'p' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(138,21): error C2065: 'm_pGameCamera' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(138,46): error C2065: 'm_pGameCamera' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(138,74): error C2065: 'm_pGameCamera' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(139,9): error C2065: 'p' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(139,30): error C2065: 'm_persProjInfo' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(140,34): error C2065: 'p' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(145,10): error C2182: 'KeyboardCB' : utilisation non conforme du type 'void'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(145,21): error C2065: 'OGLDEV_KEY' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(145,32): error C2146: erreur de syntaxe : absence de ')' avant l'identificateur 'OgldevKey'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(146,5): error C2143: erreur de syntaxe : absence de ';' avant '{'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(146,5): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(158,18): error C2575: 'PassiveMouseCB' : seules les fonctions membres et les bases peuvent être virtuelles
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(160,9): error C2065: 'm_pGameCamera' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(163,1): error C2059: erreur de syntaxe : 'private'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(165,23): error C2143: erreur de syntaxe : absence de ';' avant '*'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(165,23): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(165,41): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(165,25): error C2040: 'm_pShadowMapTech' : les niveaux d'indirection de 'int *' et de 'int' sont différents
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(166,11): error C2143: erreur de syntaxe : absence de ';' avant '*'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(166,11): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(166,26): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(168,26): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(168,15): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'm_spotLight'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(169,9): error C2143: erreur de syntaxe : absence de ';' avant '*'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(169,9): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(169,18): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(169,11): error C2040: 'm_pMesh' : les niveaux d'indirection de 'int *' et de 'int' sont différents
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(170,9): error C2143: erreur de syntaxe : absence de ';' avant '*'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(170,9): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(170,5): error C2086: 'int Mesh' : redéfinition
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(169): message : voir la déclaration de 'Mesh'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(170,18): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(170,11): error C2040: 'm_pQuad' : les niveaux d'indirection de 'int *' et de 'int' sont différents
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(171,32): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(171,18): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'm_shadowMapFBO'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(172,32): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(172,18): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'm_persProjInfo'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(173,1): error C2059: erreur de syntaxe : '}'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(173,1): error C2143: erreur de syntaxe : absence de ';' avant '}'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(179,5): error C3861: 'GLUTBackendInit' : identificateur introuvable
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(181,34): error C2065: 'WINDOW_WIDTH' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(181,48): error C2065: 'WINDOW_HEIGHT' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(181,10): error C3861: 'GLUTBackendCreateWindow' : identificateur introuvable
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(185,5): error C2065: 'Tutorial23' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(185,17): error C2065: 'pApp' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(185,28): error C2061: erreur de syntaxe : identificateur 'Tutorial23'
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(187,10): error C2065: 'pApp' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(191,5): error C2065: 'pApp' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(193,12): error C2065: 'pApp' : identificateur non déclaré
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(193,16): error C2541: 'delete' : impossible de détruire des objets qui ne sont pas des pointeurs
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(197,1): warning C4138: '*/' trouvé à l'extérieur du commentaire
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source23.cpp(197,2): error C2059: erreur de syntaxe : '/'
+  Source24.cpp
+  Source25.cpp
+  Source26.cpp
+  Source9.cpp
+  Génération de code en cours...

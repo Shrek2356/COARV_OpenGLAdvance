@@ -1,4 +1,2 @@
-﻿  Source.cpp
-  Source1.cpp
-  Génération de code en cours...
-  Practice1.vcxproj -> E:\Documents\COARV_OpenGLAdvance\Practice1\Debug\Practice1.exe
+﻿  Source2.cpp
+E:\WJH\COARV_OpenGLAdvance\Practice1\Practice1\Source2.cpp(1,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'glew.h' : No such file or directory

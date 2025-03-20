@@ -1,4 +1,5 @@
-﻿#include <glew.h>   // 引入 GLEW 库
+﻿/*
+#include <glew.h>   // 引入 GLEW 库
 #include <glut.h>   // 引入 GLUT 库
 #include <stdio.h>
 #include "math_3d.h"   // 自定义数学库，定义 Vector3f 结构体
@@ -50,3 +51,4 @@ int main(int argc, char** argv) {
     glutMainLoop(); // 进入 GLUT 主循环
     return 0;
 }
+*/
