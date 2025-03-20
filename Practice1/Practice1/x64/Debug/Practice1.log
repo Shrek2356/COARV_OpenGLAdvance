@@ -1,0 +1,11 @@
+﻿Source1.obj : error LNK2019: symbole externe non résolu glutInit référencé dans la fonction main
+Source1.obj : error LNK2019: symbole externe non résolu glutInitDisplayMode référencé dans la fonction main
+Source1.obj : error LNK2019: symbole externe non résolu glutInitWindowPosition référencé dans la fonction main
+Source1.obj : error LNK2019: symbole externe non résolu glutInitWindowSize référencé dans la fonction main
+Source1.obj : error LNK2019: symbole externe non résolu glutMainLoop référencé dans la fonction main
+Source1.obj : error LNK2019: symbole externe non résolu glutCreateWindow référencé dans la fonction main
+Source1.obj : error LNK2019: symbole externe non résolu glutSwapBuffers référencé dans la fonction "void __cdecl RenderSceneCB(void)" (?RenderSceneCB@@YAXXZ)
+Source1.obj : error LNK2019: symbole externe non résolu glutDisplayFunc référencé dans la fonction main
+C:\Dev\GLUT\lib\glut32.lib : warning LNK4272: type d'ordinateur bibliothèque 'x86' en conflit avec le type d'ordinateur cible 'x64'
+C:\Dev\GLUT\lib\glut.lib : warning LNK4272: type d'ordinateur bibliothèque 'x86' en conflit avec le type d'ordinateur cible 'x64'
+E:\Documents\COARV_OpenGLAdvance\Practice1\x64\Debug\Practice1.exe : fatal error LNK1120: 8 externes non résolus
